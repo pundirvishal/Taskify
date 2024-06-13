@@ -441,7 +441,6 @@ export const Canvas = ({ boardId }: CanvasProps) => {
         redo={history.redo}
         canUndo={canUndo}
         canRedo={canRedo}
-        setLastUsedColor={setLastUsedColor}
       />
       <SelectionTools camera={camera} setLastUsedColor={setLastUsedColor} />
       <svg
